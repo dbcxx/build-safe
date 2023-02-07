@@ -1,12 +1,12 @@
 :root{
-    --mount-meadow: #1bbc9c;
+    --mount-meadow: #fea02f;;
     --white-smoke: #f0f0f0;
     --night-rider: #343434;
     --black: #191b17;
     --transition: all 0.5s ease-in-out;
 }
  section {
-    padding-top: 6rem;
+    padding: 6rem 0;
  }
 
 .container{

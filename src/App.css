@@ -15,11 +15,11 @@ body {
   color: #252934;
   background: #fafafa;
   font-size: 90%;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  font-family: 'Overlock', Arial, Helvetica, sans-serif, 'Montserrat', 'Lora';
   overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Montserrat','Lora',
     monospace;
 }
