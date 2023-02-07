@@ -100,7 +100,7 @@
     right: 50%;
     top: 10%;
     width: 80%;
-    
+    padding-top: 50px;
     transform: translate(50%, 0);
     animation: text-fade-in 1000ms 800ms forwards;
   }
