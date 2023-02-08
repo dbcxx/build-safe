@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: lora;
     padding-bottom: 20px;
 
@@ -36,11 +36,14 @@
  .btn-login{
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
     transition: var(--transition);
     background: transparent;
-    width: 200px;
+    width: 300px;
     height: auto;
     margin: 0 20px;
+    letter-spacing: 0.05em;
     /* display: none; */
 }
 .btn-login:hover{
@@ -118,7 +121,8 @@
   }
   .btn-login {
     margin: 20px 0;
-    display: none;
+    width: 250px;
+    /* display: none; */
   }
   .btn-signup {
     margin-top: 20px;
@@ -127,7 +131,7 @@
 }
 @media screen and (min-width: 768px){
     
-    .detail .row{
+    .detail .row-1{
         /* display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem; */
@@ -135,7 +139,7 @@
         justify-content: space-between;
     }
     .detail-item{
-        margin: 0;
+        margin: 10px;
     }
    
     .team-item{

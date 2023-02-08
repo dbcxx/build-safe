@@ -19,6 +19,9 @@
     font-size: 1.5rem;
     margin-left: 1rem;
   }
+  .build {
+    color: #fea02f;
+  }
   
   .navigation-menu {
     margin-left: auto;

@@ -8,7 +8,7 @@ const Section1 = () => {
         <div className="display-title ">
           <h2 className="display-title-h2">What you'll love about Build Safe </h2>
         </div>
-        <div className="row">
+        <div className="row-1">
           <div className="detail-item">
             <span>
               <i className="fas fa-tablet-alt"></i>

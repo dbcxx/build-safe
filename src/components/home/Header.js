@@ -10,13 +10,13 @@ const Header = () => {
           <TypeAnimation
             // Same String at the start will only be typed once, initially
             sequence={[
-              "Ensure buildings are safe for Cassava",
+              "Ensure buildings are safe for Individual ",
               1000,
-              "Ensure buildings are safe for Garri",
+              "Ensure buildings are safe for Businesses",
               2000,
-              "Ensure buildings are safe for Ewa",
+              "Ensure buildings are safe for Families",
               3000,
-              "Ensure buildings are safe for Cucumber",
+              "Ensure buildings are safe for Rentals",
               2000,
             ]}
             speed={20} // Custom Speed from 1-99 - Default Speed: 40
@@ -31,10 +31,10 @@ const Header = () => {
           minim veniam, quis nostrud
         </div>
         <div className="button-call">
-          <span>Join Us Today </span>
+          <span className="join">Join Us Today </span>
             {/* <Button1 variant={"signup"}>Signup Now</Button1> */}
-            <button type = "button" className = "btn-login">Login </button>
-            <button type = "button" className = "btn-signup">Signup </button>
+            <button type = "button" className = "btn-login">Get Started </button>
+            {/* <button type = "button" className = "btn-signup">Signup </button> */}
         </div>
       </div>
     </header>

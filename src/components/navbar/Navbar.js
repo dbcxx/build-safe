@@ -10,7 +10,7 @@ const Navbar = () => {
 <nav className="navigation">
     
       <a href="/" className="brand-name">
-        BuildSafe
+        <span className="build">Build</span>Safe
       </a>
       <button
         className="hamburger"
@@ -51,7 +51,7 @@ const Navbar = () => {
           <a href="#contact"> Contact Us </a>            
           </li>
           <li>
-            <button type="button" className="nav-login">Login</button>
+            <button type="button" className="nav-login">SignUp</button>
           </li>
         </ul>
       </div>

@@ -7,27 +7,24 @@
   box-sizing: border-box;
 }
 
-
-
 body {
-   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #252934;
   background: #fafafa;
   font-size: 90%;
-  font-family: 'Overlock', Arial, Helvetica, sans-serif, 'Montserrat', 'Lora';
+  font-family: "Overlock", Arial, Helvetica, sans-serif, "Montserrat", "Lora",
+    "Raleway";
   overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Montserrat','Lora',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    "Montserrat", "Lora", "Raleway", monospace;
 }
 button {
   border: 3.5px solid #fff;
-    border-radius: 2rem;
-    padding: 0.8rem 2rem;
-    text-transform: uppercase;
-    
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  text-transform: uppercase;
 }
