@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import { TypeAnimation } from "react-type-animation";
-import Button1 from "../Button1";
 
 const Header = () => {
   return (
@@ -11,13 +10,13 @@ const Header = () => {
           <TypeAnimation
             // Same String at the start will only be typed once, initially
             sequence={[
-              "Ensure buildings are safe for habiting",
+              "Ensure buildings are safe for Cassava",
               1000,
-              "Ensure buildings are safe for Sex",
+              "Ensure buildings are safe for Garri",
               2000,
-              "Ensure buildings are safe for Ageing",
+              "Ensure buildings are safe for Ewa",
               3000,
-              "Ensure buildings are safe for Death",
+              "Ensure buildings are safe for Cucumber",
               2000,
             ]}
             speed={20} // Custom Speed from 1-99 - Default Speed: 40

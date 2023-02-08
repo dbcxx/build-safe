@@ -75,7 +75,8 @@
   }
   
 .detail{
-    background: var(--white-smoke);
+    /* background: var(--white-smoke); */
+    background-color: rgb(206, 206, 206);
 }
 .detail-item{
     background: #fff;
