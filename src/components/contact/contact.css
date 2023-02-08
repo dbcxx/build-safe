@@ -1,219 +1,160 @@
-.contact .row{
-    margin-top: 2rem;
+.contact .row {
 }
-a{
-    text-decoration: none;
-    color: var(--black);
+a {
+  text-decoration: none;
+  color: var(--black);
 }
 /* .contact .row > div{
     margin: 2rem 0;
     padding: 1rem 0;
 } */
 .contact {
-    padding: 6.5rem 0;
+  padding: 6.5rem 0;
 }
-.contact .row > div h2{
-    font-size: 1.4rem;
-    font-weight: 300;
-    opacity: 0.9;
-    text-align: center;
+.contact .row > div h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  opacity: 0.9;
+  text-align: center;
 }
 
-
-
-
-
-
-
-.footer{
-    text-align: center;
-    background: var(--black);
-    color: var(--white-smoke);
-    /* padding: 2rem 0; */
-    height: 20vh;
+.footer {
+  text-align: center;
+  background: var(--black);
+  color: var(--white-smoke);
+  /* padding: 2rem 0; */
+  height: 20vh;
 }
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer .text{
-    opacity: 0.8;
+.footer .text {
+  opacity: 0.8;
 }
-.footer-links{
-    display: flex;
-    justify-content: center;
-    margin-top: 1.6rem;
-    font-size: 2rem;
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.3rem;
+  font-size: 2rem;
 }
-.footer-links a{
-    /* color: var(--white-smoke); */
-    opacity: 0.8;
-    width: 50px;
-    height: 50px;
-    margin: 0 0.2rem;
-    border-radius: 50%;
-    transition: var(--transition);
+.footer-links a {
+  /* color: var(--white-smoke); */
+  opacity: 0.8;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.2rem;
+  border-radius: 50%;
+  transition: var(--transition);
 }
-.footer-links a:hover{
-    background: var(--mount-meadow);
+.footer-links a:hover {
+  background: var(--mount-meadow);
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact-first-links li {
+  list-style-type: none;
+}
+
+.first-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first-space li {
+  padding: 5px 0;
+  font-family: lora;
 }
 
 
 
+
+
+@media screen and (max-width:768px){
+    .container-1 {
+       
+        flex-direction: column;
+        padding: 0 2rem;
+        
+      }
+      .mob-align {
+        display: flex;
+        align-items: flex-start;
+      }
+
+}
 /* #### Media Queries #### */
 
-@media screen and (min-width: 768px){
-    
-    .contact .row{
-        display: block;
-        
-        column-gap: 2rem;
-    }
-    .contact-right > div:first-child{
-        margin-top: 0;
-    }
-    .detail-item {
-        margin: 10px;
-    }
-}
+@media screen and (min-width: 768px) {
+  .contact .row {
+    display: block;
 
-
-@media screen and (min-width: 1200px){
-    .hero-div h1{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .detail .row{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .pricing .row{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .testimonial-item p{
-        width: 60%;
-    }
-    .contact .row{
-        column-gap: 4rem;
-    }
-    .contact-right{
-        padding-left: 4rem!important;
-    }
-}
-
-
-.popup-youtube{
-    border: 2px solid black;
-    padding:20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: var(--mount-meadow);
-}
-
-.popup-youtube i{
-    font-size: 2rem;
-}
-.auto{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* dropdown */
-
-.dropdown{
-    margin: 20px 0;
-}
-
-  /* Reset Select */
-  select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
-    border: 0 !important;
-    background: #2c3e50;
-    background-image: none;
+    column-gap: 2rem;
   }
-  /* Remove IE arrow */
-  select::-ms-expand {
-    display: none;
+  .contact-right > div:first-child {
+    margin-top: 0;
   }
-  /* Custom Select */
+  .detail-item {
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-div h1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .detail .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .pricing .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .testimonial-item p {
+    width: 60%;
+  }
+  .contact .row {
+    column-gap: 4rem;
+  }
+  .contact-right {
+    padding-left: 4rem !important;
+  }
+}
+
+/ @media (max-width: 400px) {
   .select {
     position: relative;
     display: flex;
-    width: 20em;
+    width: 100%;
     height: 3em;
     line-height: 3;
     background: var(--mount-meadow);
     overflow: hidden;
-    border-radius: .25em;
+    border-radius: 0.25em;
   }
-  select {
-    flex: 1;
-    padding: 0 .5em;
-    color: #fff;
-    cursor: pointer;
-  }
-  /* Arrow */
-  .select::after {
-    content: '\25BC';
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0 1em;
-    background: var(--mount-meadow);
-    cursor: pointer;
-    pointer-events: none;
-    -webkit-transition: .25s all ease;
-    -o-transition: .25s all ease;
-    transition: .25s all ease;
-  }
-  /* Transition */
-  .select:hover::after {
-    color: #f39c12;
-  }
-  
-  @media (max-width: 400px){
-    .select {
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 3em;
-        line-height: 3;
-        background: var(--mount-meadow);
-        overflow: hidden;
-        border-radius: .25em;
-    }
-    
-    
-  }
-  
-  @media (max-width: 550px){
-    .show-faq-content {
-        height: auto;
-        padding: 0.6rem 1.8rem;
-    }
-    .dropdown h1{
-        font-size: 1rem;
-    }
-    section {
-        padding: 1rem 0;
-    }
-    
-  }
+}
 
+@media (max-width: 550px) {
+  .show-faq-content {
+    height: auto;
+    padding: 0.6rem 1.8rem;
+  }
+  .dropdown h1 {
+    font-size: 1rem;
+  }
+  section {
+    padding: 1rem 0;
+  }
+}
 
- 
-  
-  .footer-links {
-    /* margin: 2rem 0; */
-    font-size: 2rem;
+.footer-links {
+  /* margin: 2rem 0; */
+  font-size: 2rem;
 }
