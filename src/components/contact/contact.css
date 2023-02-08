@@ -1,5 +1,4 @@
-.contact .row {
-}
+
 a {
   text-decoration: none;
   color: var(--black);
@@ -128,7 +127,7 @@ a {
   }
 }
 
-/ @media (max-width: 400px) {
+ @media (max-width: 400px) {
   .select {
     position: relative;
     display: flex;
