@@ -50,34 +50,14 @@ const Navbar = () => {
           {/* <NavLink to="#contact">Contact</NavLink> */}
           <a href="#contact"> Contact Us </a>            
           </li>
+          <li>
+            <button type="button" className="nav-login">Login</button>
+          </li>
         </ul>
       </div>
     </nav>
 
 
-
-
-    // <nav className="navbar">
-    //   <div className="container">
-    //     <div className="logo">
-    //     <img src={Brand} alt="brand_logo" />
-    //     </div>
-
-    //   </div>
-    //   <div className="nav-elements">
-    //     <ul>
-    //       <li>
-    //         <NavLink to="/">Home</NavLink>
-    //       </li>
-    //       <li>
-    //         <NavLink to="/about">About</NavLink>
-    //       </li>
-    //       <li>
-    //         <NavLink to="/contact">Contact</NavLink>
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </nav>
   );
 };
 

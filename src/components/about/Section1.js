@@ -5,12 +5,15 @@ const Section1 = () => {
   return (
     <section className="detail" id="about">
       <div className="container">
+        <div className="display-title ">
+          <h2 className="display-title-h2">What you'll love about Build Safe </h2>
+        </div>
         <div className="row">
           <div className="detail-item">
             <span>
               <i className="fas fa-tablet-alt"></i>
             </span>
-            <h2>LOREM IPSUM </h2>
+            <h2>INSURANCE </h2>
             <div className="line"></div>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -27,7 +30,7 @@ const Section1 = () => {
             <span>
               <i className="far fa-check-square"></i>
             </span>
-            <h2>LOREM IPSUM</h2>
+            <h2>SECURITY</h2>
             <div className="line"></div>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,7 +47,7 @@ const Section1 = () => {
             <span>
               <i className="far fa-bell"></i>
             </span>
-            <h2>LOREM IPSUM</h2>
+            <h2>PROTOCOL</h2>
             <div className="line"></div>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

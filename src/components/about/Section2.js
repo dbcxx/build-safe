@@ -30,9 +30,9 @@ const Section2 = () => {
             </div>
             <div className="text-col">
               <h3>
-                lorem
+                Our
                 <br />
-                ipsum
+                Mission
               </h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -48,9 +48,9 @@ const Section2 = () => {
           <div className="row">
             <div className="text-col">
               <h3>
-                lorem
+                Our
                 <br />
-                ipsum
+                Vision
               </h3>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
