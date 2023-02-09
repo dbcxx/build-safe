@@ -85,6 +85,7 @@ a {
       .mob-align {
         display: flex;
         align-items: flex-start;
+        font-size: 2em;
       }
 
 }

@@ -96,7 +96,14 @@
   color: #fafafa;
   line-height: 3rem;
 }
-
+@media only screen and (min-width: 768px) {
+  .typing span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 6em;
+    color: white;
+  }
+}
 @media only screen and (max-width: 649px) {
   #welcome-section .container {
     right: 50%;
