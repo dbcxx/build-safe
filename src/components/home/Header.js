@@ -10,7 +10,7 @@ const Header = () => {
           <TypeAnimation
             // Same String at the start will only be typed once, initially
             sequence={[
-              "Ensure buildings are safe for Individual ",
+              "Ensure buildings are safe for Individuals ",
               2000,
               "Ensure buildings are safe for Businesses",
               4000,

@@ -82,10 +82,10 @@ const Contact = () => {
                     <i class="fab fa-whatsapp"></i>
                     
                   </a>
-                  <a href="https://t.me/joinchat/" class="center">
-                    <i class="fab fa-telegram"></i>
+                  <a href="mailto:info@buildsure.ng" class="center">
+                    <i class="fas fa-at"></i>
                   </a>
-                  <a href="tel:+2340000000000" class="center">
+                  <a href="tel:+2348033323859" class="center">
                     <i class="fas fa-phone-alt"></i>
                   </a>
                   <a href="www.twitter.com" class="center">
@@ -94,6 +94,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <p className="address">Address: 29B Usuma Street, Maitama, Abuja. FCT
+</p>
           </div>
         </div>
       </section>
