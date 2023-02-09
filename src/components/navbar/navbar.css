@@ -15,12 +15,13 @@
   .brand-name {
     text-decoration: none;
     color: black;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 2.2rem;
     margin-left: 1rem;
   }
   .build {
     color: #fea02f;
+    
   }
   
   .navigation-menu {
@@ -47,7 +48,7 @@
   }
 
   .navigation-menu li a.active {
-    color: #574c4c;
+    color: #a12d2d;
     font-weight: 500;
     position: relative;
   }

@@ -6,57 +6,51 @@ const Section1 = () => {
     <section className="detail" id="about">
       <div className="container">
         <div className="display-title ">
-          <h2 className="display-title-h2">What you'll love about Build Safe </h2>
+          <h2 className="display-title-h2">
+            What you'll love about Build Safe{" "}
+          </h2>
         </div>
         <div className="row-1">
-          <div className="detail-item">
-            <span>
-              <i className="fas fa-tablet-alt"></i>
-            </span>
-            <h2>INSURANCE </h2>
-            <div className="line"></div>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
+         
 
           <div className="detail-item">
             <span>
-              <i className="far fa-check-square"></i>
+              <i className="fas fa-fingerprint"></i>
             </span>
             <h2>SECURITY</h2>
             <div className="line"></div>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum{" "}
+              We take the security of your personal and financial information
+              very seriously. Our app is built with robust security protocols
+              and encryption to ensure that your data is protected at all times
             </p>
           </div>
 
           <div className="detail-item">
             <span>
-              <i className="far fa-bell"></i>
+              <i className="fas fa-umbrella"></i>
+            </span>
+            <h2>INSURANCE </h2>
+            <div className="line"></div>
+            <p className="text">
+              Your insurance coverage is now just a few taps away with our
+              convenient and user-friendly app. Whether you need to get your
+              insurance certificate, make or renew your registration, file a
+              claim, or simply get information about your coverage, our app
+              makes it easy and accessible.
+            </p>
+          </div>
+
+          <div className="detail-item">
+            <span>
+              <i className="fas fa-book-open"></i>
             </span>
             <h2>PROTOCOL</h2>
             <div className="line"></div>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              We adhere to industry-standard security protocols to ensure that
+              all transactions and data transfers are secure and protected. You
+              can trust that your information is safe with us.
             </p>
           </div>
         </div>
