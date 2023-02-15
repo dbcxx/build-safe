@@ -3,11 +3,13 @@ import "./section3.css";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import insur from '../../assets/insurance.svg';
-import innovate from '../../assets/innovate.svg';
-import provide from '../../assets/resources.svg';
-import care from '../../assets/care.svg'
-import assist from '../../assets/question1.svg';
+import insur from "../../assets/insurance.svg";
+import innovate from "../../assets/innovate.svg";
+import provide from "../../assets/resources.svg";
+import care from "../../assets/care.svg";
+import assist from "../../assets/question1.svg";
+import connect from "../../assets/connect.svg";
+import educate from "../../assets/educate.svg";
 
 const Section3 = () => {
   const options = {
@@ -23,7 +25,7 @@ const Section3 = () => {
       <div className="container">
         <div className="title">
           <h2 className="wow animate__animated animate__bounceIn animate__fast">
-            What we do{" "}
+            What you'll love about BuildSure{" "}
           </h2>
           <p className="text">At your best interest</p>
         </div>
@@ -32,14 +34,14 @@ const Section3 = () => {
           {/* <div className = "row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__fast"> */}
           <div className="testimonial-item">
             <div className="testimonial-img">
-              <img src={insur} alt="" />
+              <img src={educate} alt="" />
               {/* {item.items} */}
             </div>
-            <p>We Insure</p>
+            <p>We Educate</p>
             <p>
-              We are here to you help protect what matters most to you, your
-              buildings, so you can focus on the things that really matter in
-              life.
+              We are committed to ensuring everyone understand their
+              obligsations and rights as to providing and occupying safe builds
+              for the general public
             </p>
           </div>
 
@@ -49,20 +51,19 @@ const Section3 = () => {
             </div>
             <p>We Innovate</p>
             <p>
-              We work with you to understand your unique insurance needs and
-              provide customized solutions to meet those needs.
+              We develop custom solutions to the specific requirements of our
+              clients and community
             </p>
           </div>
 
           <div className="testimonial-item">
             <div className="testimonial-img">
-              <img src={provide} alt="" />
+              <img src={connect} alt="" />
             </div>
-            <p>We Provide</p>
+            <p>We Mediate</p>
             <p>
-              With our online tools and resources to help you manage your
-              insurance coverage, including the ability to file claims and make
-              policy changes.
+              We ensure all parties including tenants, landords, insurers and
+              the insured have access to fair claims and processes.
             </p>
           </div>
 

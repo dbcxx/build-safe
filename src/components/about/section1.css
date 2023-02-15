@@ -23,7 +23,20 @@
     padding-bottom: 20px;
 
 }
-
+.row-cta {
+    margin-block: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #313131;
+    color: white;
+ 
+}
+.row-cta-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .button-call {
     margin-top: 1.8rem;
     display: flex;
@@ -129,7 +142,16 @@
     font-size: 10px;
   }
 }
+
+@media screen and (max-width : 768px) {
+    .row-cta-center button {
+        font-size: small;
+    }
+}
+
+
 @media screen and (min-width: 768px){
+    
     
     .detail .row-1{
         /* display: grid;

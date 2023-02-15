@@ -7,7 +7,7 @@ const Section2 = () => {
   return (
     <section className="about">
       <div className="container">
-        <div className="heading">
+        {/* <div className="heading">
           <h2 className="section-heading">about us</h2>
           <p className="sub-heading">
             BuildSure Limited is an insurance technology SPV and is the primary
@@ -58,6 +58,15 @@ const Section2 = () => {
               <img alt="" src={home2} />
             </div>
           </div>
+        </div> */}
+        <div className="text-col">
+          <h3>
+          Occupiers Liability Insurance in a nutshell
+          </h3>
+          <p>
+            the content is with felicia
+          </p>
+
         </div>
       </div>
     </section>

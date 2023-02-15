@@ -1,5 +1,8 @@
 import React from "react";
 import "./contact.css";
+import { HashLink as Link } from "react-router-hash-link";
+import PP from "../../assets/BuildSure_Privacy_Policy.pdf";
+import TC from "../../assets/BUILDSURE TERMS AND CONDITIONS OF USE.pdf";
 
 const Contact = () => {
   return (
@@ -15,29 +18,32 @@ const Contact = () => {
             <div className="contact-first-links">
               <ul className="first-space">
                 <li>
-                  <a href="/">About us </a>
+                  <a href="/">Home </a>
                 </li>
                 <li>
-                  <a href="/">Career </a>
+                  <Link to="#about"> What we do</Link>
                 </li>
                 <li>
-                  <a href="/">Policy </a>
+                  <a href= {TC} target = "_blank">Terms and Condition </a>
                 </li>
                 <li>
-                  <a href="/">location </a>
+                  <a href={PP} target = "_blank" >Privacy Policy </a>
                 </li>
                 <li>
+                  <a href="/">Investor Relations </a>
+                </li>
+                {/* <li>
                   <a href="/">Login </a>
                 </li>
                 <li>
                   <a href="/">Create Account </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
 
 
-          <div className="contact-middle">
+          {/* <div className="contact-middle">
           <div class="title">
               <h2 class=" mob-align  wow animate__animated animate__bounceIn animate__fast">
                 Features
@@ -63,10 +69,10 @@ const Contact = () => {
                 </li>
                 <li>
                   <a href="/">Create Account </a>
-                </li> */}
+                </li> 
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="contact-last">
             <div class="title">
               <h2 class="  wow animate__animated animate__bounceIn animate__fast">
@@ -80,6 +86,10 @@ const Contact = () => {
                 <div class="footer-links">
                   <a href="https://wa.me/" class="center">
                     <i class="fab fa-whatsapp"></i>
+                    
+                  </a>
+                  <a href="https://www.instagram.com/" class="center">
+                    <i class="fab fa-instagram"></i>
                     
                   </a>
                   <a href="mailto:info@buildsure.ng" class="center">

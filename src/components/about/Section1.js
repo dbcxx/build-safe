@@ -6,53 +6,60 @@ const Section1 = () => {
     <section className="detail" id="about">
       <div className="container">
         <div className="display-title ">
-          <h2 className="display-title-h2">
-            What you'll love about Build Safe{" "}
-          </h2>
+          <h2 className="display-title-h2">What we do </h2>
         </div>
         <div className="row-1">
-         
-
           <div className="detail-item">
             <span>
-              <i className="fas fa-fingerprint"></i>
+              <i className="far fa-building"></i>
             </span>
-            <h2>SECURITY</h2>
+            <h2>ENTERPRISE SOLUTION</h2>
             <div className="line"></div>
             <p className="text">
-              We take the security of your personal and financial information
-              very seriously. Our app is built with robust security protocols
-              and encryption to ensure that your data is protected at all times
+              We provide technology to building regulations administrative and
+              enforcement agencies as well as large corporates to ensure
+              continuous compliance with all legal requirements
             </p>
           </div>
 
           <div className="detail-item">
             <span>
-              <i className="fas fa-umbrella"></i>
+              <i className="fas fa-file-invoice-dollar"></i>
             </span>
-            <h2>INSURANCE </h2>
+            <h2>CAUTION FEE MANAGEMENT</h2>
             <div className="line"></div>
             <p className="text">
-              Your insurance coverage is now just a few taps away with our
-              convenient and user-friendly app. Whether you need to get your
-              insurance certificate, make or renew your registration, file a
-              claim, or simply get information about your coverage, our app
-              makes it easy and accessible.
+              We hold caution deposits on behalf of landlord and tenants to
+              ensure an independent assessment and disbursement of fees due at
+              expiration of tenancies.
             </p>
           </div>
 
           <div className="detail-item">
             <span>
-              <i className="fas fa-book-open"></i>
+              <i className="fas fa-exclamation-circle"></i>
             </span>
-            <h2>PROTOCOL</h2>
+            <h2>RISK RATING</h2>
             <div className="line"></div>
             <p className="text">
-              We adhere to industry-standard security protocols to ensure that
-              all transactions and data transfers are secure and protected. You
-              can trust that your information is safe with us.
+              We provide risk rating for buildings useful to insurance companies
+              and other parties for the purpose of risk management.
             </p>
           </div>
+        </div>
+      </div>
+      <div className="row-cta">
+        <div className="container row-cta-center">
+          <h3>
+            Is your building Insured as required by law? Confirm or get your
+            building insurance here!
+          </h3>
+          <br />
+          <button type="button" className="btn-login">
+            Sign up as a landlord/tenant{" "}
+          </button>
+          <br />
+          <p>Request a risk rating assessment</p>
         </div>
       </div>
     </section>

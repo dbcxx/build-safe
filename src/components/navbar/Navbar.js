@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import './navbar.css'
+import "./navbar.css";
 
 const Navbar = () => {
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-
-<nav className="navigation">
-    
+    <nav className="navigation">
       <a href="/" className="brand-name">
-        <span className="build">Build</span>Sure
+        <div className="logo-arrange">
+          <div><span className="build">Build</span>Sure</div>
+          <span className="slogan">be sure to insure</span>
+        </div>{" "}
       </a>
       <button
         className="hamburger"
@@ -19,7 +20,6 @@ const Navbar = () => {
           setIsNavExpanded(!isNavExpanded);
         }}
       >
-        
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -40,32 +40,27 @@ const Navbar = () => {
       >
         <ul>
           <li>
-          <Link to= "/"> Home</Link>
+            <Link to="/"> Home</Link>
 
-          {/* <a href="/"> Home </a>  */}
-            
+            {/* <a href="/"> Home </a>  */}
           </li>
           <li>
-          <Link to="#about">About</Link>
-          {/* <a href="#about"> About </a>  */}
+            <Link to="#about"> What we do</Link>
+            {/* <a href="#about"> About </a>  */}
           </li>
           <li>
-          <Link to="#contact">Contact</Link>
-          {/* <a href="#contact"> Contact Us </a>             */}
+            <Link to="#contact">Contact</Link>
+            {/* <a href="#contact"> Contact Us </a>             */}
           </li>
           <li>
-            <button type="button" className="nav-login">SignUp</button>
+            <button type="button" className="nav-login">
+              SignUp
+            </button>
           </li>
         </ul>
       </div>
     </nav>
-
-
   );
 };
 
 export default Navbar;
-
-
-
-
