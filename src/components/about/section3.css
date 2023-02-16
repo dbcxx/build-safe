@@ -35,6 +35,7 @@
 }
 .testimonial-item p{
     font-size: 1.3rem;
+    font-family: lora;
     color: var(--white-smoke);
     line-height: 1.7;
 }
@@ -52,12 +53,14 @@
 }
 .title h2{
     font-size: 3.2rem;
+    font-family: montserrat;
     color: var(--night-rider);
     font-weight: bold;
 }
 .title .text{
     font-weight: 500;
     font-size: 1.1rem;
+    font-family: lora;
 }
 
 

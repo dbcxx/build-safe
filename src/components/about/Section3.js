@@ -40,7 +40,7 @@ const Section3 = () => {
             <p>We Educate</p>
             <p>
               We are committed to ensuring everyone understand their
-              obligsations and rights as to providing and occupying safe builds
+              obligations and rights as to providing and occupying safe builds
               for the general public
             </p>
           </div>
