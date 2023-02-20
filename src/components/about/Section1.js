@@ -4,7 +4,7 @@ import "./section1.css";
 const Section1 = () => {
   return (
     <section className="detail" id="about">
-      <div className="container">
+      <div className="container-sec1">
         <div className="display-title ">
           <h2 className="display-title-h2">What we do </h2>
         </div>

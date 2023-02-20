@@ -9,7 +9,7 @@
     padding: 6rem 0;
  }
 
-.container{
+.container-sec1{
     max-width: 1320px;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -19,9 +19,15 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-family: lora;
+    font-family: montserrat;
     padding-bottom: 20px;
 
+
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .row-cta {
     margin-block: 3rem;
@@ -29,7 +35,7 @@
     padding-bottom: 2rem;
     background-color: #313131;
     color: white;
-    font-family: lora;
+    font-family: montserrat;
  
 }
 .row-cta-center {
@@ -148,6 +154,13 @@
     .row-cta-center button {
         font-size: small;
     }
+    .detail .row-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        /* display: flex;
+        justify-content: space-between; */
+    }
 }
 
 
@@ -156,10 +169,10 @@
     
     .detail .row-1{
         /* display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem; */
-        display: flex;
-        justify-content: space-between;
+        grid-template-columns: 1fr; */
+        
+        /* display: flex;
+        justify-content: space-between; */
     }
     .detail-item{
         margin: 10px;
@@ -173,14 +186,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .contact .row{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    }
-    .contact-right > div:first-child{
-        margin-top: 0;
-    }
+   
     .detail-item {
         margin: 10px;
     }

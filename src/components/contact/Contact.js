@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
 
 
-          {/* <div className="contact-middle">
+          <div className="contact-middle">
           <div class="title">
               <h2 class=" mob-align  wow animate__animated animate__bounceIn animate__fast">
                 Features
@@ -64,7 +64,7 @@ const Contact = () => {
                 <li>
                   <a href="/">Terms of Service  </a>
                 </li>
-                {/* <li>
+                 <li>
                   <a href="/">Login </a>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ const Contact = () => {
                 </li> 
               </ul>
             </div>
-          </div> */}
+          </div> 
           <div className="contact-last">
             <div class="title">
               <h2 class="  wow animate__animated animate__bounceIn animate__fast">
